@@ -11,9 +11,9 @@ load_dotenv()
 WEATHER_API_KEY = os.environ.get("WEATHER_API_KEY")
 
 
-# LAT, LONG (Hanoi, Viet Nam) - (Untersalzberg I - Now)
-LAT = 47.640329
-LONG = 13.034189
+# LAT, LONG (Hanoi, Viet Nam)
+LAT = 21.027763
+LONG = 105.834160
 
 
 # parameters
