@@ -37,7 +37,7 @@ for data in hours_data:
     if condition_code < 700:
         will_rain = True
 
-if True:
+if will_rain:
     MY_EMAIL = os.environ.get("MY_EMAIL")
     MY_PASSWORD = os.environ.get("MY_PASSWORD")
     with smtplib.SMTP("smtp.gmail.com", 587) as connection:
