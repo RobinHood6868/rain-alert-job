@@ -2,7 +2,7 @@ name: Rain Alert
 
 on:
   schedule:
-    - cron: "21 10 * * *"  # 22:00 UTC = 05:00 UTC+7 (Vietnam)
+    - cron: "40 10 * * *"  # 22:00 UTC = 05:00 UTC+7 (Vietnam)
   workflow_dispatch:       # Cho phép chạy thủ công để test
 
 jobs:
