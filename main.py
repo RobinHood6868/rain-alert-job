@@ -21,7 +21,7 @@ parameters = {
     "lat": LAT,
     "lon": LONG,
     "appid": WEATHER_API_KEY,
-    "cnt": 4
+    "cnt": 6
 }
 
 
@@ -33,7 +33,9 @@ hours_data = response.json()["list"]
 
 will_rain = False
 for data in hours_data:
+    print(data)
     condition_code = data["weather"][0]["id"]
+    print(condition_code)
     if condition_code < 700:
         will_rain = True
 
